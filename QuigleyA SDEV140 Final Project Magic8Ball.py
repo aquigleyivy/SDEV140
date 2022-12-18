@@ -66,9 +66,10 @@ def finished():
     tk.image = tk.PhotoImage(file="universe.gif")   # shows image of the universe
     eight_ball["image"] = tk.image          # displays image
     header_label["text"] = "\nGo and be well."
+    question_field["state"] = "normal"      # unlocks question field to clear values
     question_field.delete(0, tk.END)        # clears question field of any previous values
-    question_field["relief"] = "flat"       # makes question_field invisible
-    question_field["state"] = "disabled"    # locks question_field from user entry
+    question_field["relief"] = "flat"
+    question_field["state"] = "disabled"      # locks question field 
     answer_line["text"] = " "               # clears answer_line of any previous values
     answer_line["relief"] = "flat"          # makes answer_line field invisible
     yes_btn["text"] = " "
