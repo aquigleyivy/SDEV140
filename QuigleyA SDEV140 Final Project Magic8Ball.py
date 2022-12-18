@@ -1,6 +1,9 @@
 """
-File: magicgui.py
-Description: lays out framing of Magic 8-ball program GUI,
+File: QuigleyA SDEV140 Final Project Magic8Ball.py
+Description:    Program is designed to simulate a Magic 8-Ball.
+                User enters a question and program returns a random response.
+Author: Anna Quigley
+Date: December 18, 2022
 """
 
 import tkinter as tk
